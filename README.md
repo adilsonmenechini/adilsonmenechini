@@ -1,30 +1,19 @@
 ## Hi, My name is Adilson Menechini!
 
+
+
 I'm a Senior Site Reliability Engineer (SRE) with extensive experience ensuring the availability, scalability, and performance of complex cloud infrastructures. I specialize in building resilient, automated, and scalable systems using modern DevOps and SRE practices. Below are the key areas of my technical expertise:
 
-<div align="center">
-  <a href="https://github.com/adilsonmenechini">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=adilsonmenechini&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adilsonmenechini&layout=compact&langs_count=7&theme=dracula"/>
+---
+
+### 📫 How to reach me:
+
+<div> 
+  <a href="https://www.linkedin.com/in/adilson-menechini" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:adilsonmenechini@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
 
----
 
-### 🚀 Core Competencies:
-
-- **Containerization and Orchestration**: Expertise in Docker and Kubernetes for creating, managing, and scaling containerized applications.
-- **CI/CD**: Proficient in automating pipelines with GitHub Actions and Azure DevOps, enabling fast and reliable software deliveries.
-- **GitOps**: Implementation of GitOps practices using ArgoCD for managing and automating deployments.
-- **Cloud Architect**: Skilled in designing and implementing cloud architectures across AWS and Azure environments, ensuring scalability and cost optimization.
-- **Infrastructure as Code**: Extensive experience with Terraform, Terragrunt, Packer, and Ansible for automating infrastructure provisioning and management.
-- **Automation**: Development of robust automation scripts in Python, Golang, and JavaScript, with hands-on experience using Rundeck for orchestrating automated tasks.
-- **Monitoring and Observability**: Proficient in setting up and managing monitoring solutions using Datadog, Prometheus, and Grafana to ensure system reliability and performance.
-- **Capacity Planning**: Expertise in planning infrastructure capacity to meet demand and ensure system scalability.
-- **Incident Response**: Extensive experience managing high-severity incidents and driving resolution through SRE best practices.
-- **FinOps**: Proven ability to implement financial operations strategies for optimizing cloud costs and improving financial efficiency.
-- **User Experience**: Focused on improving system reliability and performance to enhance overall user experience.
-
----
 
 <div style="display: inline_block"><br>
   <!-- Programming Languages -->
@@ -60,10 +49,24 @@ I'm a Senior Site Reliability Engineer (SRE) with extensive experience ensuring 
 </div>
 
 ---
-
-### 📫 How to reach me:
-
-<div> 
-  <a href="https://www.linkedin.com/in/adilson-menechini" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:adilsonmenechini@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<div align="center">
+  <a href="https://github.com/adilsonmenechini">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=adilsonmenechini&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adilsonmenechini&layout=compact&langs_count=7&theme=dracula"/>
 </div>
+
+---
+### 🚀 Core Competencies:
+
+- **Containerization and Orchestration**: Expertise in Docker and Kubernetes for creating, managing, and scaling containerized applications.
+- **CI/CD**: Proficient in automating pipelines with GitHub Actions and Azure DevOps, enabling fast and reliable software deliveries.
+- **GitOps**: Implementation of GitOps practices using ArgoCD for managing and automating deployments.
+- **Cloud Architect**: Skilled in designing and implementing cloud architectures across AWS and Azure environments, ensuring scalability and cost optimization.
+- **Infrastructure as Code**: Extensive experience with Terraform, Terragrunt, Packer, and Ansible for automating infrastructure provisioning and management.
+- **Automation**: Development of robust automation scripts in Python, Golang, and JavaScript, with hands-on experience using Rundeck for orchestrating automated tasks.
+- **Monitoring and Observability**: Proficient in setting up and managing monitoring solutions using Datadog, Prometheus, and Grafana to ensure system reliability and performance.
+- **Capacity Planning**: Expertise in planning infrastructure capacity to meet demand and ensure system scalability.
+- **Incident Response**: Extensive experience managing high-severity incidents and driving resolution through SRE best practices.
+- **FinOps**: Proven ability to implement financial operations strategies for optimizing cloud costs and improving financial efficiency.
+- **User Experience**: Focused on improving system reliability and performance to enhance overall user experience.
+---
