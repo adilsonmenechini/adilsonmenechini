@@ -1,6 +1,6 @@
 ## Hi, My name is Adilson Menechini!
 
-I'm a Senior Site Reliability Engineer (SRE) with a deep expertise in ensuring the availability, scalability, and performance of complex systems. My core focus is on building resilient, automated, and scalable infrastructure using modern DevOps and SRE practices. Below are the key areas of my technical expertise:
+I'm a Senior Site Reliability Engineer (SRE) with extensive experience ensuring the availability, scalability, and performance of complex cloud infrastructures. I specialize in building resilient, automated, and scalable systems using modern DevOps and SRE practices. Below are the key areas of my technical expertise:
 
 <div align="center">
   <a href="https://github.com/adilsonmenechini">
@@ -12,17 +12,17 @@ I'm a Senior Site Reliability Engineer (SRE) with a deep expertise in ensuring t
 
 ### 🚀 Core Competencies:
 
-- **Containerization and Orchestration**: Expertise in Docker and Kubernetes for the creation, management, and scalability of containerized applications.
+- **Containerization and Orchestration**: Expertise in Docker and Kubernetes for creating, managing, and scaling containerized applications.
 - **CI/CD**: Proficient in automating pipelines with GitHub Actions and Azure DevOps, enabling fast and reliable software deliveries.
-- **GitOps**: Implementation of GitOps practices using ArgoCD for deployment management and full automation.
-- **Cloud Architect**: Skilled in designing and implementing cloud architectures across AWS and Azure environments, with a focus on scalability and cost optimization.
-- **Infrastructure as Code**: Extensive experience using Terraform, Terragrunt, Packer, and Ansible for automated, repeatable infrastructure deployment.
-- **Automation**: Development of robust automation scripts in Python, Golang, and JavaScript, with hands-on experience in Rundeck for orchestrating automation tasks.
-- **Monitoring and Observability**: Strong experience in implementing and managing monitoring solutions with Datadog, Prometheus, and Grafana to ensure system reliability and performance.
-- **Capacity Planning**: Adept in planning and scaling infrastructure capacity to meet dynamic demands and ensure system stability.
-- **Incident Response**: Experienced in managing high-severity incidents and driving rapid resolution through established SRE practices and crisis management.
-- **User Experience**: Focused on improving user experience by enhancing system reliability and performance.
-- **FinOps**: Expertise in cloud cost management and financial optimization through FinOps practices to reduce operational costs.
+- **GitOps**: Implementation of GitOps practices using ArgoCD for managing and automating deployments.
+- **Cloud Architect**: Skilled in designing and implementing cloud architectures across AWS and Azure environments, ensuring scalability and cost optimization.
+- **Infrastructure as Code**: Extensive experience with Terraform, Terragrunt, Packer, and Ansible for automating infrastructure provisioning and management.
+- **Automation**: Development of robust automation scripts in Python, Golang, and JavaScript, with hands-on experience using Rundeck for orchestrating automated tasks.
+- **Monitoring and Observability**: Proficient in setting up and managing monitoring solutions using Datadog, Prometheus, and Grafana to ensure system reliability and performance.
+- **Capacity Planning**: Expertise in planning infrastructure capacity to meet demand and ensure system scalability.
+- **Incident Response**: Extensive experience managing high-severity incidents and driving resolution through SRE best practices.
+- **FinOps**: Proven ability to implement financial operations strategies for optimizing cloud costs and improving financial efficiency.
+- **User Experience**: Focused on improving system reliability and performance to enhance overall user experience.
 
 ---
 
@@ -44,6 +44,7 @@ I'm a Senior Site Reliability Engineer (SRE) with a deep expertise in ensuring t
   <img align="center" alt="Azure" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg">
   <img align="center" alt="AzureDevOps" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuredevops/azuredevops-original.svg">
   <img align="center" alt="Ansible" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg">
+  <img align="center" alt="ArgoCD" height="30" width="40" src="https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg">
   <img align="center" alt="Rundeck" height="30" width="40" src="https://www.vectorlogo.zone/logos/rundeck/rundeck-icon.svg">
 
   <!-- Operating Systems -->
