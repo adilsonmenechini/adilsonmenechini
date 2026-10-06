@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Adilson Menechini — Senior SRE · Platform Engineer · Reliability Specialist</title>
+<meta name="description" content="SRE Sênior com 17+ anos em tecnologia. Kubernetes, GitOps, IaC, observabilidade e IA aplicada à engenharia de plataforma.">
+<meta name="theme-color" content="#F3EFE6">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+:root{--bg:#F3EFE6;--fg:#1d1b17;--mut:#6b665b;--line:#d9d2c2;--card:#faf7f0;--acc:#2f6b3f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16150f;--fg:#efeadc;--mut:#9d978a;--line:#2e2b22;--card:#1d1b14;--acc:#6fcf8a}}
+:root[data-theme="dark"]{--bg:#16150f;--fg:#efeadc;--mut:#9d978a;--line:#2e2b22;--card:#1d1b14;--acc:#6fcf8a}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line)}
+.logo{font-family:'JetBrains Mono',monospace;font-size:14px;text-decoration:none}
+nav{display:flex;gap:20px;align-items:center;font-size:14px;color:var(--mut)}
+nav a{text-decoration:none}nav a:hover{color:var(--acc)}
+button{background:none;border:1px solid var(--line);color:var(--fg);border-radius:999px;padding:4px 12px;cursor:pointer;font:inherit;font-size:13px}
+.hero{padding:88px 0 72px}
+.eyebrow{font:13px 'JetBrains Mono',monospace;color:var(--acc);letter-spacing:.04em}
+h1{font:600 clamp(36px,7vw,68px)/1.05 Fraunces,Georgia,serif;margin:16px 0 20px;letter-spacing:-.02em}
+h1 em{color:var(--acc);font-style:italic;font-weight:400}
+.lead{max-width:660px;color:var(--mut);font-size:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{padding:11px 20px;border-radius:999px;border:1px solid var(--fg);text-decoration:none;font-weight:500;font-size:14px}
+.btn.p{background:var(--fg);color:var(--bg)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats div{padding:24px 16px 24px 0}
+.stats b{display:block;font:600 30px Fraunces,Georgia,serif}
+.stats span{color:var(--mut);font-size:14px}
+section{padding:72px 0;border-bottom:1px solid var(--line)}
+h2{font:600 32px Fraunces,Georgia,serif;margin:0 0 8px}
+.sub{color:var(--mut);margin:0 0 36px;max-width:560px}
+.skills{border-top:1px solid var(--line)}
+.skills div{display:grid;grid-template-columns:200px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.skills h3{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);font-weight:500;padding-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{border:1px solid var(--line);background:var(--card);padding:4px 12px;border-radius:999px;font:13px 'JetBrains Mono',monospace}
+.job{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:24px 0;border-top:1px solid var(--line)}
+.job time{font:13px 'JetBrains Mono',monospace;color:var(--mut)}
+.job h3{margin:0;font-size:18px}
+.job .org{color:var(--acc);font-size:14px;margin:2px 0 8px}
+.job ul{margin:0;padding-left:18px;color:var(--mut);font-size:15px}
+.job li{margin-bottom:4px}
+.role{margin-top:14px}
+.edu{list-style:none;margin:0;padding:0}
+.edu li{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:16px 0;border-top:1px solid var(--line)}
+.edu time{font:13px 'JetBrains Mono',monospace;color:var(--mut)}
+footer{padding:40px 0;color:var(--mut);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media(max-width:640px){.skills div,.job,.edu li{grid-template-columns:1fr;gap:6px}nav a.h{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="logo" href="#">adilson<span style="color:var(--acc)">.</span>menechini</a>
+  <nav>
+    <a class="h" href="#competencias">Competências</a><a class="h" href="#experiencia">Experiência</a><a class="h" href="#formacao">Formação</a><a href="#contato">Contato</a>
+    <button id="t" aria-label="Alternar tema">Tema</button>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="eyebrow">Senior SRE · Platform Engineer · Reliability Specialist</div>
+  <h1>Plataformas cloud-native,<br><em>resilientes e automatizadas.</em></h1>
+  <p class="lead">SRE Sênior com mais de 17 anos em tecnologia, 5+ em DevOps/SRE na Ambev Tech. Foco em reduzir toil, elevar a disponibilidade e otimizar custos, com Kubernetes, GitOps, IaC e observabilidade. Atuação em incidentes de alta severidade e post-mortems, aplicando IA (agentes e RAG) à engenharia de plataforma.</p>
+  <div class="cta">
+    <a class="btn p" href="https://www.linkedin.com/in/adilsonmenechini">LinkedIn</a>
+    <a class="btn" href="https://github.com/adilsonmenechini">GitHub</a>
+    <a class="btn" href="mailto:adilsonmenechini@gmail.com">E-mail</a>
+  </div>
+</div>
+
+<div class="stats">
+  <div><b>17+</b><span>anos em tecnologia</span></div>
+  <div><b>5+</b><span>anos em DevOps/SRE na Ambev Tech</span></div>
+  <div><b>3</b><span>clouds: AWS, Azure e GCP</span></div>
+  <div><b>Toledo, PR</b><span>Brasil</span></div>
+</div>
+
+<section id="competencias">
+  <h2>Competências técnicas</h2>
+  <p class="sub">Ferramentas e tecnologias do dia a dia.</p>
+  <div class="skills">
+    <div><h3>Orquestração</h3><div class="chips"><span>Kubernetes</span><span>Istio</span><span>Linkerd</span><span>KEDA</span><span>Docker</span><span>Helm</span><span>Kustomize</span></div></div>
+    <div><h3>IaC e automação</h3><div class="chips"><span>Terraform</span><span>Terragrunt</span><span>Packer</span><span>Ansible</span><span>Rundeck</span></div></div>
+    <div><h3>GitOps e CI/CD</h3><div class="chips"><span>ArgoCD</span><span>Argo Rollouts</span><span>Codefresh</span><span>GitHub Actions</span><span>Azure DevOps</span><span>GitLab CI</span><span>Jenkins</span></div></div>
+    <div><h3>Observabilidade</h3><div class="chips"><span>Datadog</span><span>Prometheus</span><span>Grafana</span><span>Loki</span><span>Jaeger</span><span>OpenTelemetry</span></div></div>
+    <div><h3>Cloud</h3><div class="chips"><span>AWS</span><span>Azure</span><span>GCP</span></div></div>
+    <div><h3>Segurança</h3><div class="chips"><span>OPA/Gatekeeper</span><span>Kyverno</span><span>Policy-as-Code</span><span>Vault</span><span>Sealed Secrets</span></div></div>
+    <div><h3>Linguagens</h3><div class="chips"><span>Python</span><span>Go</span><span>Bash</span><span>JavaScript</span><span>YAML</span></div></div>
+    <div><h3>IA / Agentes</h3><div class="chips"><span>LangChain</span><span>LangGraph</span><span>CrewAI</span><span>RAG</span><span>Bancos vetoriais</span></div></div>
+  </div>
+</section>
+
+<section id="experiencia">
+  <h2>Experiência profissional</h2>
+  <p class="sub">De suporte técnico a SRE Sênior.</p>
+
+  <div class="job">
+    <time>Ago/2020 — atual<br>Ambev Tech</time>
+    <div>
+      <h3>SRE | Reliability Specialist Sênior</h3><div class="org">Ambev Tech · Jan/2023 – atual</div>
+      <ul>
+        <li>Desenhei soluções de RAG e Agentic AI (LangChain, LangGraph, CrewAI) integrando LLMs a bancos vetoriais e bases de conhecimento.</li>
+        <li>Conduzi GitOps com ArgoCD e automatizei pipelines de CI/CD (GitHub Actions, Azure DevOps) em Kubernetes.</li>
+        <li>Projetei arquiteturas em AWS e Azure e automatizei a infraestrutura com Terraform, Terragrunt, Packer e Ansible.</li>
+        <li>Implementei observabilidade com Datadog; atuei em capacity planning, incidentes e gestão de crises.</li>
+        <li>Reduzi custos de nuvem (FinOps) e desenvolvi automações em Python, Go e JavaScript.</li>
+      </ul>
+      <div class="role"><h3>SRE | Reliability Specialist Pleno</h3><div class="org">Fev/2022 – Jan/2023</div>
+      <ul><li>Operei workloads em Docker/Kubernetes e serviços AWS/Azure com IaC; automatizei CI/CD e implementei observabilidade e capacity planning.</li></ul></div>
+      <div class="role"><h3>DevOps Engineer</h3><div class="org">Mar/2021 – Fev/2022</div>
+      <ul><li>Estruturei monitoramento, pipelines de CI/CD e arquitetura de nuvem; participei da resposta a incidentes.</li></ul></div>
+      <div class="role"><h3>Analista de Infraestrutura Cloud</h3><div class="org">Trinovati Tecnologia · Toledo, PR · Ago/2020 – Mar/2021</div>
+      <ul><li>Automatizei CI/CD e administrei serviços e custos na AWS, com Docker/Kubernetes e IaC.</li></ul></div>
+    </div>
+  </div>
+
+  <div class="job">
+    <time>Jul/2014 — Jul/2020</time>
+    <div>
+      <h3>Administrador de Sistemas</h3><div class="org">Prati-Donaduzzi Medicamentos Genéricos · Toledo e região, PR</div>
+      <ul>
+        <li>Administrei firewall, proxy, VPN, switching e roteamento (Cisco, HP, Mikrotik), VMware e servidores Linux/Windows.</li>
+        <li>Monitorei ativos com Zabbix, Prometheus e Grafana, com foco em alta disponibilidade e segurança.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <time>Mar/2009 — Jan/2014</time>
+    <div>
+      <h3>Suporte Técnico</h3><div class="org">Certto Telecom · Toledo e região, PR</div>
+      <ul><li>Suporte técnico a clientes de internet via rádio e fibra óptica.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="formacao">
+  <h2>Formação acadêmica</h2>
+  <p class="sub">&nbsp;</p>
+  <ul class="edu">
+    <li><time>2017 — 2019</time><div><b>UTFPR</b><br><span style="color:var(--mut)">Especialização em Redes de Computadores: Gerenciamento de Sistemas, Redes e LAN/WAN</span></div></li>
+    <li><time>2013 — 2015</time><div><b>Fundação Assis Gurgacz</b><br><span style="color:var(--mut)">Tecnólogo em Redes de Computadores</span></div></li>
+    <li><time>2009 — 2012</time><div><b>Unipar</b><br><span style="color:var(--mut)">Graduação</span></div></li>
+  </ul>
+</section>
+
+<section id="contato" style="border:0">
+  <h2>Contato</h2>
+  <p class="sub">Vamos conversar sobre SRE, plataforma e IA aplicada.</p>
+  <div class="cta" style="margin-top:0">
+    <a class="btn p" href="mailto:adilsonmenechini@gmail.com">adilsonmenechini@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/adilsonmenechini">linkedin.com/in/adilsonmenechini</a>
+    <a class="btn" href="https://github.com/adilsonmenechini">github.com/adilsonmenechini</a>
+  </div>
+</section>
+
+<footer><span>© 2026 Adilson Menechini</span><span>adilsonmenechini.github.io</span></footer>
+</div>
+<script>
+(function(){
+var r=document.documentElement;
+try{var s=localStorage.getItem('theme');if(s)r.setAttribute('data-theme',s)}catch(e){}
+document.getElementById('t').onclick=function(){
+var dark=r.getAttribute('data-theme')==='dark'||(!r.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme:dark)').matches);
+var n=dark?'light':'dark';r.setAttribute('data-theme',n);
+try{localStorage.setItem('theme',n)}catch(e){}
+};
+})();
+</script>
+</body>
+</html>
